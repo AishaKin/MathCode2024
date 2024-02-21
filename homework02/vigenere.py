@@ -1,7 +1,4 @@
 def encrypt_vigenere(plaintext: str, keyword: str) -> str:
-    """
-    Encrypts plaintext using a Vigenere cipher.
-    """
     ciphertext = ""
     keyword = keyword.upper()
 
@@ -20,9 +17,6 @@ def encrypt_vigenere(plaintext: str, keyword: str) -> str:
 
 
 def decrypt_vigenere(ciphertext: str, keyword: str) -> str:
-    """
-    Decrypts a ciphertext using a Vigenere cipher.
-    """
     plaintext = ""
     keyword = keyword.upper()
 
